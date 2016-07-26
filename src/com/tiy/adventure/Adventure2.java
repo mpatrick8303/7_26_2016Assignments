@@ -9,8 +9,8 @@ import java.util.Scanner;
 
 public class Adventure2
 {
-	private String[]  storyLine = new String[12];
-	private String[] choices = new String[12];
+	private String[]  storyLine = new String[25];
+	private String[] choices = new String[25];
 
 	String begStoryLine;
 	
@@ -79,21 +79,13 @@ public class Adventure2
 				break;
 			}
 			
-		System.out.println("Do you want to have another adventure?(Type no to exit the Adventure; Type anything else to do another one.1)");
+		System.out.println("Do you want to have another adventure?(Type no to exit the Adventure; Type anything else to do another one)");
 		String fchoice = sc.nextLine();
 		
 		stopStory = !fchoice.equals("no");
 		}
 	}
-	
-	public void firstStoryLineText()
-	{
-		
-	
-		
-		
-		//type out first story line
-	}
+
 	public void firstStoryLine()
 	{
 		System.out.println(storyLine[1]);
@@ -126,12 +118,6 @@ public class Adventure2
 	}
 	
 	
-	public void secondStoryLineText()
-	{
-		
-		
-
-	}
 	public void secondStoryLine()
 	{
 		System.out.println(storyLine[5]);
@@ -161,14 +147,6 @@ public class Adventure2
 		}
 	}
 	
-	
-	public void thirdStoryLineText()
-	{
-		
-	
-		
-	
-	}
 	public void thirdStoryLine()
 	{
 		System.out.println(storyLine[9]);
